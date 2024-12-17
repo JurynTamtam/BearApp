@@ -1,0 +1,69 @@
+body{
+    background-color: #F9F1F0;
+    background-size: cover;
+}
+img{
+    max-width: auto;
+    height: auto;
+}
+span{
+    font-size: 1em;
+}
+
+/* about */
+
+.about{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner/3.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.text-title{
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9F1F0;
+    font-size: 6vw;
+  }
+  .text-tagline{
+    color: #F9F1F0;
+    font-size: 2.5vw;
+  }
+  
+
+.about_card{
+    background-color: #594422;
+    color: #F9F1F0;
+}
+
+/* shop */
+
+.shop{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner/2.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.card-product{
+    width: 200px;
+    height: 300px;
+}
+
+/* faq */
+
+.faq{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(5, 1, 1, 0.5)), url("../images/banner/1.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+#accordion{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+

@@ -1,0 +1,96 @@
+/* The side navigation menu */
+.wrapper{
+  position: absolute;
+  align-items: stretch;
+  background-color: #274459;
+  display: flex;
+  width: 100%;
+}
+
+.sidebar{
+
+  background-color: #274459;
+  direction: ltr;
+  max-width: 260px;
+  min-width: 260px;
+}
+.sidebar, .sidebar-content{
+  transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+}
+.sidebar-content{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.sidebar-brand{
+  text-decoration: none;
+  margin: 1rem 1rem;
+}
+.sidebar-brand-text{
+  color: #FEA116;
+}
+.sidebar-nav{
+  flex-grow: 1;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.sidebar-link,a.sidebar-link{
+  background:#274459;
+  border-left:3px solid transparent;
+  color:#FEA116;
+  cursor:pointer;
+  display:block;
+  font-weight:400;
+  font-size: 1.25vw;
+  padding:.625rem 1.625rem;
+  position:relative;
+  text-decoration:none;
+}
+.sidebar-link i,a.sidebar-link i{
+  margin-right:.75rem;
+}
+.sidebar-link:focus{
+  outline:0
+}
+.sidebar-link:hover{
+  background:#222e3c;
+  border-left-color:transparent
+}
+.sidebar-link:hover,.sidebar-link:hover i{
+  color:rgba(233,236,239,.75)
+}
+.sidebar-item.active .sidebar-link:hover,.sidebar-item.active>.sidebar-link{
+  background:linear-gradient(90deg,rgba(59,125,221,.1),rgba(59,125,221,.088) 50%,transparent);
+  border-left-color:#3b7ddd;
+  color:#e9ecef
+}
+.sidebar-item.active .sidebar-link:hover i,.sidebar-item.active>.sidebar-link i{
+  color:#e9ecef
+}
+.hamburger{
+  color: #0d1b2a;
+  font-size: 25px;
+}
+
+/*******Content**********/
+.main{
+  background:#f5f7fb;
+  border-bottom-left-radius:0;
+  border-top-left-radius:0;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  min-width:0;
+  overflow:hidden;
+  transition:margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+  width:100%
+}
+.col .card-style{
+  height: 8rem;
+  padding: 1rem;
+} 
+.d-flex i{
+  font-size: 50px;
+  padding: 1.5rem;
+}

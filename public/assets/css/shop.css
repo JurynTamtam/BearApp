@@ -1,0 +1,97 @@
+
+/* Header */
+.hom_ban{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner/home.png");
+  width: 100%;
+  height: 750px;
+  background-size: 100% 100%;
+}
+.text-title{
+  font-family: 'Courier New', Courier, monospace;
+  color: #F9F1F0;
+  font-size: 6vw;
+}
+.text-tagline{
+  color: #F9F1F0;
+  font-size: 2.5vw;
+}
+
+/* Bestseller */
+.text-content{
+  color: #274459;
+  font-size: 5vw;
+}
+
+.chan{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner/3.png");
+  width: 100%;
+  height: 750px;
+  background-size: 100% 100%;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  padding: .8em;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+ 
+ .card-img {
+  background-color: #ffcaa6;
+  height: 20%;
+  width: 50%;
+  border-radius: .5rem;
+  transition: .3s ease;
+ }
+ 
+ .card-info {
+  padding-top: 10%;
+  height: 20%;
+ }
+ 
+ 
+ .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+ }
+ 
+ /*Text*/
+ .title {
+  font-weight: 900;
+  font-size: 1.2vw;
+  line-height: 1.5;
+  color: #252525;
+ }
+ 
+ .text-body {
+  font-size: 1vw;
+  padding-bottom: 10px;
+  color: #252525;
+ }
+ 
+ /*Button*/
+ .card-button {
+  background: #b08968;
+  border: 1px solid #252525;
+  display: flex;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+ }
+ 
+ /*Hover*/
+ .card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+ }
+ 
+ .card-button:hover {
+  border: 1px solid #ddb892;
+  background-color: #ddb892;
+ }
+ 
